@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mptiki/dev/CS3100-03/src/Assign3.cpp
+iostream
+-
+cstdlib
+-
+cstring
+-
+cmath
+-
+iomanip
+-
+Assign3e.hpp
+/home/mptiki/dev/CS3100-03/src/Assign3e.hpp
+Assign3Fib.hpp
+/home/mptiki/dev/CS3100-03/src/Assign3Fib.hpp
+Assign3pi.hpp
+/home/mptiki/dev/CS3100-03/src/Assign3pi.hpp
+
+include/Assign3Fib.hpp
+
+include/Assign3e.hpp
+
+include/Assign3pi.hpp
+cmath
+-
+

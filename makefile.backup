@@ -1,0 +1,19 @@
+#relationship file for make Assign3
+Assign3: Assign3.o Assign3pi.o Assign3e.o Assign3Fib.o
+	g++ -std=c++11 -o Assign3 Assign3.o Assign3pi.o Assign3e.o Assign3Fib.o
+
+Assign3.o: Assign3.cpp
+	g++ -std=c++11 -c Assign3.cpp
+
+Assign3pi.o: Assign3pi.cpp Assign3pi.hpp
+	g++ -std=c++11 -c Assign3pi.cpp
+
+Assign3e.o: Assign3e.cpp Assign3pi.hpp
+	g++ -std=c++11 -c Assign3e.cpp
+
+Assign3Fib.o: Assign3Fib.cpp Assign3Fib.hpp
+	g++ -std=c++11 -c Assign3Fib.cpp
+
+clean:
+	rm *.o
+	rm Assign3
