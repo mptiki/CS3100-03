@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mptiki/dev/CS3100-03/src/Assign3.cpp" "/home/mptiki/dev/CS3100-03/CMakeFiles/Assign3.dir/src/Assign3.cpp.o"
-  "/home/mptiki/dev/CS3100-03/src/Assign3Fib.cpp" "/home/mptiki/dev/CS3100-03/CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o"
-  "/home/mptiki/dev/CS3100-03/src/Assign3e.cpp" "/home/mptiki/dev/CS3100-03/CMakeFiles/Assign3.dir/src/Assign3e.cpp.o"
-  "/home/mptiki/dev/CS3100-03/src/Assign3pi.cpp" "/home/mptiki/dev/CS3100-03/CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o"
+  "/home/mptiki/dev/CS3100-03/src/Assign3.cpp" "/home/mptiki/dev/CS3100-03/build/CMakeFiles/Assign3.dir/src/Assign3.cpp.o"
+  "/home/mptiki/dev/CS3100-03/src/Assign3Fib.cpp" "/home/mptiki/dev/CS3100-03/build/CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o"
+  "/home/mptiki/dev/CS3100-03/src/Assign3e.cpp" "/home/mptiki/dev/CS3100-03/build/CMakeFiles/Assign3.dir/src/Assign3e.cpp.o"
+  "/home/mptiki/dev/CS3100-03/src/Assign3pi.cpp" "/home/mptiki/dev/CS3100-03/build/CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "include"
+  "../include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

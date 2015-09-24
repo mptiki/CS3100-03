@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../include/Assign3Fib.hpp
+
+../include/Assign3e.hpp
+
+../include/Assign3pi.hpp
+cmath
+-
+
 /home/mptiki/dev/CS3100-03/src/Assign3.cpp
 iostream
 -
@@ -23,12 +31,4 @@ Assign3Fib.hpp
 /home/mptiki/dev/CS3100-03/src/Assign3Fib.hpp
 Assign3pi.hpp
 /home/mptiki/dev/CS3100-03/src/Assign3pi.hpp
-
-include/Assign3Fib.hpp
-
-include/Assign3e.hpp
-
-include/Assign3pi.hpp
-cmath
--
 

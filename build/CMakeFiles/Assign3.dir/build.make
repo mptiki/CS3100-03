@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/mptiki/dev/CS3100-03
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mptiki/dev/CS3100-03
+CMAKE_BINARY_DIR = /home/mptiki/dev/CS3100-03/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Assign3.dir/depend.make
@@ -50,8 +50,8 @@ include CMakeFiles/Assign3.dir/progress.make
 include CMakeFiles/Assign3.dir/flags.make
 
 CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o: CMakeFiles/Assign3.dir/flags.make
-CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o: src/Assign3Fib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o: ../src/Assign3Fib.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o -c /home/mptiki/dev/CS3100-03/src/Assign3Fib.cpp
 
@@ -73,8 +73,8 @@ CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o.provides: CMakeFiles/Assign3.dir/src
 CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o.provides.build: CMakeFiles/Assign3.dir/src/Assign3Fib.cpp.o
 
 CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o: CMakeFiles/Assign3.dir/flags.make
-CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o: src/Assign3pi.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o: ../src/Assign3pi.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o -c /home/mptiki/dev/CS3100-03/src/Assign3pi.cpp
 
@@ -96,8 +96,8 @@ CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o.provides: CMakeFiles/Assign3.dir/src/
 CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o.provides.build: CMakeFiles/Assign3.dir/src/Assign3pi.cpp.o
 
 CMakeFiles/Assign3.dir/src/Assign3e.cpp.o: CMakeFiles/Assign3.dir/flags.make
-CMakeFiles/Assign3.dir/src/Assign3e.cpp.o: src/Assign3e.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/Assign3.dir/src/Assign3e.cpp.o: ../src/Assign3e.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Assign3.dir/src/Assign3e.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Assign3.dir/src/Assign3e.cpp.o -c /home/mptiki/dev/CS3100-03/src/Assign3e.cpp
 
@@ -119,8 +119,8 @@ CMakeFiles/Assign3.dir/src/Assign3e.cpp.o.provides: CMakeFiles/Assign3.dir/src/A
 CMakeFiles/Assign3.dir/src/Assign3e.cpp.o.provides.build: CMakeFiles/Assign3.dir/src/Assign3e.cpp.o
 
 CMakeFiles/Assign3.dir/src/Assign3.cpp.o: CMakeFiles/Assign3.dir/flags.make
-CMakeFiles/Assign3.dir/src/Assign3.cpp.o: src/Assign3.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/CMakeFiles $(CMAKE_PROGRESS_4)
+CMakeFiles/Assign3.dir/src/Assign3.cpp.o: ../src/Assign3.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mptiki/dev/CS3100-03/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Assign3.dir/src/Assign3.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Assign3.dir/src/Assign3.cpp.o -c /home/mptiki/dev/CS3100-03/src/Assign3.cpp
 
@@ -175,6 +175,6 @@ CMakeFiles/Assign3.dir/clean:
 .PHONY : CMakeFiles/Assign3.dir/clean
 
 CMakeFiles/Assign3.dir/depend:
-	cd /home/mptiki/dev/CS3100-03 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mptiki/dev/CS3100-03 /home/mptiki/dev/CS3100-03 /home/mptiki/dev/CS3100-03 /home/mptiki/dev/CS3100-03 /home/mptiki/dev/CS3100-03/CMakeFiles/Assign3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mptiki/dev/CS3100-03/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mptiki/dev/CS3100-03 /home/mptiki/dev/CS3100-03 /home/mptiki/dev/CS3100-03/build /home/mptiki/dev/CS3100-03/build /home/mptiki/dev/CS3100-03/build/CMakeFiles/Assign3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Assign3.dir/depend
 
